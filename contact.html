@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>お問い合わせ | QUICKポスト</title>
+  <meta name="description" content="QUICKポストに関するお問い合わせページです。ご意見、ご要望、不具合報告などはこちらのフォームからご連絡ください。">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --bg-soft:#fcfaf8;
+      --text:#2d2424;
+      --muted:#6a5f5f;
+      --line:#eee4e4;
+      --main-red:#b22d2d;
+      --max:900px;
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"Helvetica Neue",Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.9;
+    }
+    .container{
+      width:min(var(--max),92%);
+      margin:0 auto;
+    }
+    header{
+      border-bottom:1px solid var(--line);
+      background:#fff;
+    }
+    .header-inner{
+      min-height:72px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .logo{
+      text-decoration:none;
+      color:var(--main-red);
+      font-weight:900;
+      font-size:24px;
+    }
+    .back-link{
+      color:var(--muted);
+      text-decoration:none;
+      font-size:14px;
+    }
+    main{
+      padding:48px 0 72px;
+    }
+    h1{
+      font-size:clamp(28px,4vw,40px);
+      margin:0 0 12px;
+      color:var(--main-red);
+    }
+    .lead{
+      color:var(--muted);
+      margin-bottom:32px;
+    }
+    .card{
+      background:var(--bg-soft);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:28px;
+      margin-bottom:20px;
+    }
+    h2{
+      font-size:22px;
+      margin:0 0 14px;
+      color:var(--main-red);
+    }
+    p{
+      margin:0 0 12px;
+    }
+    ul{
+      margin:0;
+      padding-left:20px;
+    }
+    li{
+      margin-bottom:10px;
+    }
+    .contact-box{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:22px;
+      margin-top:16px;
+    }
+    .label{
+      display:block;
+      font-size:13px;
+      color:var(--muted);
+      margin-bottom:6px;
+      font-weight:700;
+      letter-spacing:.02em;
+    }
+    .contact-link{
+      color:var(--main-red);
+      text-decoration:none;
+      font-weight:700;
+      word-break:break-all;
+    }
+    .form-button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:52px;
+      padding:0 26px;
+      border-radius:999px;
+      background:var(--main-red);
+      color:#fff;
+      text-decoration:none;
+      font-weight:800;
+      margin-top:10px;
+    }
+    .notice{
+      font-size:14px;
+      color:var(--muted);
+    }
+    footer{
+      border-top:1px solid var(--line);
+      padding:28px 0 48px;
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="https://ricesan7.github.io/QUICKPOST/" class="logo">QUICKポスト</a>
+      <a href="https://ricesan7.github.io/QUICKPOST/" class="back-link">サービスへ戻る</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>お問い合わせ</h1>
+      <p class="lead">
+        QUICKポストに関するご意見、ご要望、不具合報告、掲載内容に関するご連絡はこちらからお願いします。
+      </p>
+
+      <section class="card">
+        <h2>ご連絡前にご確認ください</h2>
+        <ul>
+          <li>不具合報告の際は、発生した状況や操作手順をできるだけ具体的にご記載ください。</li>
+          <li>ご利用環境（PC / スマートフォン / ブラウザ名など）を添えていただくと確認しやすくなります。</li>
+          <li>発送先情報などの機微情報は、必要がない限り本文に記載しないでください。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>お問い合わせ方法</h2>
+
+        <div class="contact-box">
+          <span class="label">お問い合わせフォーム</span>
+          <p>
+            下記フォームよりご連絡ください。
+          </p>
+          <p>
+            <a href="https://forms.gle/ihfnRyXAakiiW7Ev8" class="contact-link" target="_blank" rel="noopener noreferrer">https://forms.gle/ihfnRyXAakiiW7Ev8</a>
+          </p>
+          <a href="https://forms.gle/ihfnRyXAakiiW7Ev8" class="form-button" target="_blank" rel="noopener noreferrer">お問い合わせフォームを開く</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>返信について</h2>
+        <p>
+          内容を確認のうえ、必要に応じて返信いたします。お問い合わせ内容によっては、返信までに時間を要する場合があります。
+        </p>
+        <p>
+          すべてのお問い合わせに個別回答をお約束するものではありません。
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>お願い</h2>
+        <p>
+          本サービスは発送作業の効率化を支援するツールです。配送事故、誤入力、外部サービス側の仕様変更に関する問題については、
+          お問い合わせ前に入力内容や利用環境の確認もあわせてお願いいたします。
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 QUICKポスト. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
